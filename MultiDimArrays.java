@@ -13,7 +13,7 @@ public class MultiDimArrays {
         // System.out.println(flats.length);
 
         for(int i=0;i<flats.length;i++){
-            System.out.println(flats[i].length);
+            //System.out.println(flats[i].length);
             for(int j=0;j<flats[i].length;j++){
                 System.out.print(flats[i][j]);
                 System.out.print(" ");
