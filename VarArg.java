@@ -63,7 +63,9 @@ public class VarArg {
         return res;
     }
     public static void main(String[] args) {
-        System.out.println("Sum of a and b is: "+ mySum(5,6));
+        // here 4 becomes x  and 6,9,10 becomes ...arr
+        System.out.println("Sum of a and b is: "+ mySum(4,6,9,10));
+        // 4:x
         System.out.println("Sum of Nothing now becomes: "+ mySum(4));
     }
 }
