@@ -32,7 +32,7 @@ This constructor
 //     public int x;
 
 //     This(int x){
-//         System.out.println("This constructor");
+//         System.out.println("This constructor "+x);
 //         this.x=x;
 //     }
 //     public int getX(){
@@ -55,7 +55,7 @@ This constructor
 
 /*
 o/p
-This constructor
+This constructor 10
 DerivedThis constructor 10
 */
 
