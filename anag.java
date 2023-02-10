@@ -12,8 +12,8 @@ public class anag {
         char [] c= a.toCharArray();
         char [] d= b.toCharArray();
 
-        Arrays.sort(c);
-        Arrays.sort(d);
+        java.util.Arrays.sort(c);
+        java.util.Arrays.sort(d);
         String A= new String(c);
         String B= new String(d);
         for(int i=0;i<A.length();i++){
