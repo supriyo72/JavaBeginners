@@ -51,23 +51,7 @@ public class stringMethods {
         System.out.println("I am very \"Naughty\" and love to \'study\'. I have done\nEngineering from\tsfit ");
         
         
-import java.util.Scanner;
 
-public class upskillarray1 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a= sc.nextInt();
-        int [] b= new int[a];
-        int c=0;
-
-        if(a<=15){
-            for(int i=0;i<a;i++){
-                b[i]= sc.nextInt();
-            }
-        }
-        
-    }
-}
 
 
 
