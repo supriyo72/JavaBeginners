@@ -21,9 +21,9 @@ public class assessMatrix {
             }
             System.out.println("Sum of the row "+i+" = "+sum);
         }
-        for(int i=0;i<flats.length;i++){
+        for(int i=0;i<b;i++){
             int sum1=0;
-            for(int j=0;j<flats[i].length;j++){
+            for(int j=0;j<a;j++){
                 sum1=sum1+flats[j][i]; 
             }
             System.out.println("Sum of the column "+i+" = "+sum1);
